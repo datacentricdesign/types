@@ -1,0 +1,24 @@
+{
+  "name": "@datacentricdesign/types",
+  "version": "0.0.1",
+  "description": "Common types of Data-Centric Design apps in TypeScript.",
+  "main": "index.d.ts",
+  "private": false,
+  "scripts": {
+    "test": "types-tests.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datacentricdesign/types.git"
+  },
+  "keywords": [
+    "data",
+    "design"
+  ],
+  "author": "Data-Centric Design Lab <lab@datacentricdesign.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/datacentricdesign/types/issues"
+  },
+  "homepage": "https://github.com/datacentricdesign/types#readme"
+}
