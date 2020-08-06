@@ -1,4 +1,4 @@
-// Type definitions for datacentricdesign (version 0.0.1)
+// Type definitions for datacentricdesign (version 0.0.3)
 // Project: https://datacentricdesign.org
 // Definitions by: datacentricdesign <https://github.com/datacentricdesign>
 // Definitions: https://github.com/datacentricdesign/types
@@ -9,7 +9,7 @@ export interface Person {
     id: string;
     email: string;
     name: string;
-    password: string;
+    password?: string;
     createdAt: Date;
     updatedAt: Date;
 }
