@@ -1,6 +1,6 @@
 {
   "name": "@datacentricdesign/types",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Common types of Data-Centric Design apps in TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/datacentricdesign/types#readme",
   "devDependencies": {
-    "ts-node": "3.3.0",
-    "typescript": "2.5.2"
+    "ts-node": "8.10.2",
+    "typescript": "3.9.7"
   }
 }
