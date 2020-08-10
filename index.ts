@@ -35,7 +35,8 @@ export interface Thing {
 export interface DTOThing {
     name?: string;
     description?: string;
-    typeId?: string;
+    type?: string;
+    pem?: string
 }
 
 export interface Property {
