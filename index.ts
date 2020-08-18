@@ -15,6 +15,7 @@ export interface Person {
 }
 
 export interface DTOPerson {
+    id: string;
     email: string;
     name?: string;
     password: string;
