@@ -1,4 +1,4 @@
-// Type definitions for datacentricdesign (version 0.0.3)
+// Type definitions for datacentricdesign (version 0.0.5)
 // Project: https://datacentricdesign.org
 // Definitions by: datacentricdesign <https://github.com/datacentricdesign>
 // Definitions: https://github.com/datacentricdesign/types
@@ -15,6 +15,7 @@ export interface Person {
 }
 
 export interface DTOPerson {
+    id: string;
     email: string;
     name?: string;
     password: string;
