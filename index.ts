@@ -48,12 +48,14 @@ export interface Property {
     thing: Thing;
     values: Array<Array<number | string>>;
     createdAt: Date;
+    sharedWith?: string[];
 }
 
 export interface DTOProperty {
     name?: string;
     description?: string;
     typeId?: string;
+    sharedWith?: string[];
 }
 
 export interface PropertyType {
